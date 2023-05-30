@@ -16,7 +16,7 @@ if __name__ == '__main__':
     results = model.train(
         batch=8,
         device="cpu",
-        data="data.yaml",
+        data="dataset/train/data.yaml",
         epochs=7,
         imgsz=120,
     )

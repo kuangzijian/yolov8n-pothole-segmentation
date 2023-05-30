@@ -10,10 +10,10 @@ from ultralyticsplus import YOLO, render_result
 if __name__ == '__main__':
 
     # load model
-    model = YOLO("../runs/segment/train/weights/best.pt")
+    model = YOLO("runs/segment/train/weights/best.pt")
     model.task = 'segment'
 
     # start validation
     results = model.val(
-        data="/dataset/data.yaml",
+        data="dataset/train/data.yaml",
     )
