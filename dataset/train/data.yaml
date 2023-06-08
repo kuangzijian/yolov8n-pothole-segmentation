@@ -1,5 +1,5 @@
-train: ..\dataset\train
-val: ..\dataset\val
+train: /home/jack/yolov8n-pothole-segmentation/dataset/train/
+val: /home/jack/yolov8n-pothole-segmentation/dataset/val
 
 nc: 3
 
