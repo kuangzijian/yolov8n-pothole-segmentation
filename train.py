@@ -16,7 +16,7 @@ if __name__ == '__main__':
     results = model.train(
         batch=8,
         device="0",
-        data="/home/jack/yolov8n-pothole-segmentation/dataset/train/data.yaml",
-        epochs=7,
+        data="dataset/train/data.yaml",
+        epochs=10,
         imgsz=120,
     )
