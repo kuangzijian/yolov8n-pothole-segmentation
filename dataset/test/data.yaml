@@ -1,0 +1,6 @@
+train: /home/jack/yolov8n-pothole-segmentation/dataset/train/
+val: /home/jack/yolov8n-pothole-segmentation/dataset/test
+
+nc: 3
+
+names: ['pothole', 'pothole_patch_good', 'pothole_patch_poor']

@@ -10,7 +10,7 @@ from ultralyticsplus import YOLO, render_result
 if __name__ == '__main__':
 
     # load model
-    model = YOLO('keremberke/yolov8n-pothole-segmentation')
+    model = YOLO('runs/segment/train7/weights/best.pt')
 
     # set model parameters
     model.overrides['conf'] = 0.25  # NMS confidence threshold
