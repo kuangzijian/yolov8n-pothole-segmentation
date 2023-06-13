@@ -15,8 +15,8 @@ if __name__ == '__main__':
     # start training
     results = model.train(
         batch=8,
-        device="cpu",
+        device="0",
         data="dataset/train/data.yaml",
-        epochs=7,
+        epochs=10,
         imgsz=120,
     )

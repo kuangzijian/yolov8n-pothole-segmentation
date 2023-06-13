@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
+  <component name="PublishConfigData" autoUpload="Always" serverName="jack@206.75.135.187:22" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
       <paths name="cmr">
         <serverdata>
@@ -20,6 +20,13 @@
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="jack@206.75.135.187:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/jack/yolov8n-pothole-segmentation" local="$PROJECT_DIR$" />
           </mappings>
         </serverdata>
       </paths>
@@ -45,5 +52,6 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>

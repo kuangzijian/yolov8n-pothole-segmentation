@@ -10,7 +10,7 @@ from ultralyticsplus import YOLO, render_result
 if __name__ == '__main__':
 
     # load model
-    model = YOLO("runs/segment/train/weights/best.pt")
+    model = YOLO("runs/segment/train5/weights/best.pt")
     model.task = 'segment'
 
     # start validation

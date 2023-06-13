@@ -19,7 +19,7 @@ if __name__ == '__main__':
     model.overrides['max_det'] = 1000  # maximum number of detections per image
 
     # load images
-    filePath = 'dataset/test'
+    filePath = 'dataset/inference'
 
     # Get a list of all files in the directory
     file_list = glob.glob(os.path.join(filePath, '*'))
@@ -36,5 +36,5 @@ if __name__ == '__main__':
         print(results[0].boxes)
         print(results[0].masks)
         render = render_result(model=model, image=image, result=results[0])
-        render.save('dataset/inference/' + file_name, 'png')
+        render.save('dataset/inference_result/' + file_name, 'png')
         #render.show()
