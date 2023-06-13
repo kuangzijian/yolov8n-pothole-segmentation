@@ -10,7 +10,7 @@ from ultralyticsplus import YOLO, render_result
 if __name__ == '__main__':
 
     # load model
-    model = YOLO("yolov8n-seg.pt")
+    model = YOLO("yolov8l-seg.pt")
     model.task='segment'
     # start training
     results = model.train(

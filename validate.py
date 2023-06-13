@@ -15,5 +15,5 @@ if __name__ == '__main__':
 
     # start validation
     results = model.val(
-        data="dataset/train/data.yaml",
+        data="dataset/test/data.yaml",
     )
